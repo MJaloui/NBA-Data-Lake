@@ -2,13 +2,14 @@
 ![image](https://github.com/user-attachments/assets/da946492-8d8a-438e-8d3b-e3a00e43ad9f)
 
 ## **Project Highlights**
-⛹🏾‍♀️ This repository contains the setup_nba_data_lake.py script, which automates the creation of a data lake for NBA analytics using AWS services. 
+⛹🏾‍♀️ This repository contains the setup_nba_data_lake.py script, which automates the creation of a data lake for NBA analytics using AWS 
+   services. 
 
 ⛹🏾‍♀️ The script integrates Amazon S3, AWS Glue, and Amazon Athena
 
 ⛹🏾‍♀️ It also sets up the infrastructure needed to store and query NBA-related data.
 
----
+
 
 ## **Capabilities**
 **The setup_nba_data_lake.py script performs the following actions:**
@@ -21,37 +22,49 @@
 
 🔧 Configures Amazon Athena for querying data stored in the S3 bucket.
 
-# Prerequisites
 
-Go to Sportsdata.io and create a free account
 
-IAM Role/Permissions: Ensure the user or role running the script has the following permissions:
+## **Technologies**
+⚙️ **Cloud Provider**: AWS
 
-S3: s3:CreateBucket, s3:PutObject, s3:DeleteBucket, s3:ListBucket
-Glue: glue:CreateDatabase, glue:CreateTable, glue:DeleteDatabase, glue:DeleteTable
-Athena: athena:StartQueryExecution, athena:GetQueryResults
+⚙️ **Core Services**: S3, Glue, Athena
+
+⚙️ **Command-Line Tool**: AWS CloudShell
+
+⚙️ **Programming Language**: Python 3.x
+
+⚙️ **Infrastructure as Code**: Python script for automating AWS resource creation
+
+⚙️ **External API**: SportsData.io NBA API
+
+⚙️ **Environment Management**: Environment variables for secure API key storage
+
+⚙️ **IAM Security**: Least privilege policies for S3, Glue, and Athena
+
+⚙️ **Data Querying**: Amazon Athena
+
+⚙️ **Data Storage**: Amazon S3 (raw and processed data)
+
+⚙️ **Data Cataloging**: AWS Glue
+
+---
 
 ## **Technical Architectures**
 
 
-
 ---
 
-## **Technologies**
-- **Cloud Provider**: AWS
-- **Core Services**: S3, Glue, Athena
-- **Command-Line Tool**: AWS CloudShell
-- **Programming Language**: Python 3.x
-- **Infrastructure as Code**: Python script for automating AWS resource creation
-- **External API**: SportsData.io NBA API
-- **Environment Management**: Environment variables for secure API key storage
-- **IAM Security**: Least privilege policies for S3, Glue, and Athena
-- **Data Querying**: Amazon Athena
-- **Data Storage**: Amazon S3 (raw and processed data)
-- **Data Cataloging**: AWS Glue
 
+# Prerequisites
 
----
+1. Go to Sportsdata.io and create a free account
+
+2. IAM Role/Permissions: Ensure the user or role running the script has the following permissions:
+
+3. S3: s3:CreateBucket, s3:PutObject, s3:DeleteBucket, s3:ListBucket
+  Glue: glue:CreateDatabase, glue:CreateTable, glue:DeleteDatabase, glue:DeleteTable
+  Athena: athena:StartQueryExecution, athena:GetQueryResults
+
 
 ## **Setup Instuctions** 
 
