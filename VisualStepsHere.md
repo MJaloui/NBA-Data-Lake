@@ -25,7 +25,7 @@ Step 4: Configure API key in the Python script.
 Press ^X to exit, press Y to save the file, press enter to confirm the file name
 Step 5: Create .env file
 paste the following line of code into your file, ensure you swap out with your API key
-SPORTS_DATA_API_KEY=your_sportsdata_api_key
+SPORTS_DATA_API_KEY=your_sports_data_api_key
 NBA_ENDPOINT=https://api.sportsdata.io/v3/nba/scores/json/Players
 Press ^X to exit, press Y to save the file, press enter to confirm the file name
 Step 6: Run the script
