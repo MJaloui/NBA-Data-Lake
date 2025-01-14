@@ -1,3 +1,22 @@
+Go to Sportsdata.io and create a free account
+
+You will get an email and at the bottom it says "Launch Developer Portal"
+
+By default it takes you to the NFL, on the left click on NBA
+
+Scroll down until you see "Standings"
+
+You'll "Query String Parameters", the value in the drop down box is your API key.
+
+Copy this string because you will need to paste it later in the script
+
+
+
+
+
+
+
+
 Step 1: Log into AWS and Open CloudShell Console
 Step 2: Create the setup_nba_data_lake.py file
 Step 3: In another window, go to GitHub
