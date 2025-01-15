@@ -157,21 +157,29 @@ Copy the contents inside the setup_nba_data_lake.py file to paste in the file yo
 
 
 
-Step 7: Manually Check For The Resources
-In the Search Bar, type S3 and click blue hyper link name
--You should see 2 General purpose bucket named "Sports-analytics-data-lake"
+21. Manually Check For The Resources
+In the Search Bar, type S3 and click blue hyper link name. You should see your modified General purpose bucket named "modified-Sports-analytics-data-lake" with 2 objects in the bucket.
 ![image](https://github.com/user-attachments/assets/9d5e2dda-b0d1-4f35-8c53-ab60385e5b1d)
 ![image](https://github.com/user-attachments/assets/4134bd1d-d0b5-48c3-a611-7e4d2d406711)
 
 
 
--When you click the bucket name you will see 3 objects are in the bucket
+22. Click on "raw-data/" and you will see it contains "nba_player_data.json"
 
-Click on raw-data and you will see it contains "nba_player_data.json"
+![image](https://github.com/user-attachments/assets/bbc0f75b-c7ed-4eff-a554-555ab3c2e7ed)
+![image](https://github.com/user-attachments/assets/88b2d2cd-e2ca-4e5e-8a32-3a6f328a2645)
 
-Click the file name and at the top you will see the option to Open the file
 
--You'll see a long string of various NBA data
+
+23. Click the JSON file name "nba_player_data.jsonl".
+
+![image](https://github.com/user-attachments/assets/5b58dbc9-201d-498e-8140-d93453f7bba5)
+
+
+ 24. Click "Open" or "Download" at the top right to validate the data is in the file. If it is blank, you did not configure something 
+     correctly. You'll see a long string of various NBA data in the file.
+
+ 
 
 Head over to Amazon Athena and you could paste the following sample query:
 SELECT FirstName, LastName, Position, Team
