@@ -176,13 +176,23 @@ In the Search Bar, type S3 and click blue hyper link name. You should see your m
 ![image](https://github.com/user-attachments/assets/5b58dbc9-201d-498e-8140-d93453f7bba5)
 
 
- 24. Click "Open" or "Download" at the top right to validate the data is in the file. If it is blank, you did not configure something 
+24. Click "Open" or "Download" at the top right to validate the data is in the file. If it is blank, you did not configure something 
      correctly. You'll see a long string of various NBA data in the file.
+
+![image](https://github.com/user-attachments/assets/6dc1aa7e-4de5-4abd-81f7-67eff64d8cbb)
+![image](https://github.com/user-attachments/assets/7449d437-ea4e-4153-8733-92e5d11f15bf)
+
 
  
 
-Head over to Amazon Athena and you could paste the following sample query:
+25. If you'd like to check stats for fun, head over to Amazon Athena and you can paste the following sample query:
+
+Enter query:
+```bash
 SELECT FirstName, LastName, Position, Team
 FROM nba_players
 WHERE Position = 'PG';
--Click Run -You should see an output if you scroll down under "Query Results"
+```
+
+
+26. Click Run -You should see an output if you scroll down under "Query Results"
