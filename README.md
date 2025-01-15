@@ -66,7 +66,7 @@
   Athena: athena:StartQueryExecution, athena:GetQueryResults
 
 
-## **Setup Instuctions** 
+## **Setup Instuctions**   ➡️❗ [Click Here To View Detailed Visual Steps](https://github.com/MJaloui/NBADataLake/blob/main/VisualStepsHere.md) ❗⬅️
 
 Step 1: Log into AWS and Open CloudShell Console
 
