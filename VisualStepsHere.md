@@ -60,8 +60,9 @@ nano setup_nba_data_lake.py
 
 
 
-Step 3: In another window, go to GitHub
+Step 3: In another window, go to src/setup_nba_data_lake.py in [my GitHub](https://github.com/MJaloui/NBADataLake/blob/main/src/setup_nba_data_lake.py) and
 Copy the contents inside the setup_nba_data_lake.py file to paste in the file you created in the cloudshell console.
+
 
 Step 4: Configure API key in the Python script.
 Press ^X to exit, press Y to save the file, press enter to confirm the file name
