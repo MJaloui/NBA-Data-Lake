@@ -47,7 +47,7 @@
 
 
 
-Step 2: Create a python file with nano command to add your script, name it setup_nba_data_lake.py  (or whatever you want to name it).
+10. Create a python file with nano command to add your script, name it setup_nba_data_lake.py  (or whatever you want to name it).
 
 Enter cmd:
 ```bash
@@ -60,7 +60,7 @@ nano setup_nba_data_lake.py
 
 
 
-Step 3: In another window, go to src/setup_nba_data_lake.py in [my GitHub](https://github.com/MJaloui/NBADataLake/blob/main/src/setup_nba_data_lake.py) and
+11. In another window, go to src/setup_nba_data_lake.py in [my GitHub](https://github.com/MJaloui/NBADataLake/blob/main/src/setup_nba_data_lake.py) and
 Copy the contents inside the setup_nba_data_lake.py file to paste in the file you created in the cloudshell console.
 
 ![image](https://github.com/user-attachments/assets/d379cc04-9e6d-4d50-98fd-e7093f59ebdd)
@@ -68,26 +68,73 @@ Copy the contents inside the setup_nba_data_lake.py file to paste in the file yo
 
 
 
-Step 4: Go back to Python script and configure API key, endpoint, and remove "os.getenv" next to "api_key =" and "nba_endpoint =". Remove the parenthesis as well.
+12. Go back to Python script and configure API key, endpoint, and remove "os.getenv" next to "api_key =" and "nba_endpoint =". Remove the 
+    parenthesis as well.
 
-Berfore: api_key = os.getenv("SPORTS_DATA_API_KEY")  # Get API key from .env
+     Berfore: api_key = os.getenv("SPORTS_DATA_API_KEY")  # Get API key from .env
         
-         nba_endpoint = os.getenv("NBA_ENDPOINT")  # Get NBA endpoint from .env
+              nba_endpoint = os.getenv("NBA_ENDPOINT")  # Get NBA endpoint from .env
 
- After:  api_key = "Insert_Your_Key_Here"  # Get API key from .env
+      After:  api_key = "Insert_Your_Key_Here"  # Get API key from .env
           
-          nba_endpoint = "Insert_your_endpoint_URL_Here"  # Get NBA endpoint from .env 
+              nba_endpoint = "Insert_your_endpoint_URL_Here"  # Get NBA endpoint from .env 
           
 ![image](https://github.com/user-attachments/assets/1bb70fec-430b-4d10-a66f-f5e5a3b9e6a9)
  ![image](https://github.com/user-attachments/assets/155737fa-9076-4ad6-9150-2d5784f3f84c)
 
 ![image](https://github.com/user-attachments/assets/75a4e73f-46f1-4d04-bf80-6a34b72ad4cd)
 
-Press ^X to exit, press Y to save the file, press enter to confirm the file name
-Step 5: Create .env file
-paste the following line of code into your file, ensure you swap out with your API key
-SPORTS_DATA_API_KEY=your_sports_data_api_key
-NBA_ENDPOINT=https://api.sportsdata.io/v3/nba/scores/json/Players
+
+
+
+13. Configure the "bucket_name" so it's unique. I added my GitHub username in front of what is already there.
+
+    Before: bucket_name = "sports-analytics-data-lake"
+
+    After: bucket_name = "mjaloui-sports-analytics-data-lake"
+
+![image](https://github.com/user-attachments/assets/7a476654-67df-4a2e-a9e3-40503fc32d2a)
+
+
+
+
+14. On your keyboard press "^X" (ctrl+x) to exit, press "Y" to save the file, press "Enter" to confirm the file name. Look on the bottom left to verify you are entering the
+right thing.
+
+![image](https://github.com/user-attachments/assets/cc0037f3-d7bf-49ee-a891-3c4d6834c621)
+![image](https://github.com/user-attachments/assets/ac0b5801-edfd-4ce9-b5a7-a286870b1ef5)
+
+
+
+
+15. After you you Press "Enter" Validate your "setup_nba_data_lake.py" file was created by enterinf "ls" in the commandline. You will also see it saying it has has been modified.
+    Enter cmd:
+    ```bash
+    ls
+    ```
+    
+![image](https://github.com/user-attachments/assets/c47b18e3-8dc2-45ba-bcc7-f04c1e1630cb)
+
+
+
+
+16.  Create an .env file to create variables that store your API Key and NBA endpoint for your scripts.
+     Enter cmd:
+     ```bash
+     .env
+     ```
+![image](https://github.com/user-attachments/assets/6df1ac04-ccdc-4dde-8a77-6235e88e77f2)
+
+
+
+ 
+17. Paste the following variables into your ".env" file, ensure you configure your API key and endpoint URL.
+
+   SPORTS_DATA_API_KEY=your_sports_data_api_key
+   NBA_ENDPOINT=https://api.sportsdata.io/v3/nba/scores/json/Players
+
+![image](https://github.com/user-attachments/assets/c684e2e4-e321-49c8-8fb7-1f1a6cac3eb0)
+
 Press ^X to exit, press Y to save the file, press enter to confirm the file name
 Step 6: Run the script
 In the CLI type
