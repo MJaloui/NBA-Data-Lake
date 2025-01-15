@@ -80,8 +80,7 @@ Copy the contents inside the setup_nba_data_lake.py file to paste in the file yo
               nba_endpoint = "Insert_your_endpoint_URL_Here"  # Get NBA endpoint from .env 
           
 ![image](https://github.com/user-attachments/assets/1bb70fec-430b-4d10-a66f-f5e5a3b9e6a9)
- ![image](https://github.com/user-attachments/assets/155737fa-9076-4ad6-9150-2d5784f3f84c)
-
+![image](https://github.com/user-attachments/assets/155737fa-9076-4ad6-9150-2d5784f3f84c)
 ![image](https://github.com/user-attachments/assets/75a4e73f-46f1-4d04-bf80-6a34b72ad4cd)
 
 
@@ -98,8 +97,8 @@ Copy the contents inside the setup_nba_data_lake.py file to paste in the file yo
 
 
 
-14. On your keyboard press "^X" (ctrl+x) to exit, press "Y" to save the file, press "Enter" to confirm the file name. Look on the bottom left to verify you are entering the
-right thing.
+14. On your keyboard press "^X" (ctrl+x) to exit, press "Y" to save the file, press "Enter" to confirm the file name. Look on the bottom left 
+    to verify you are entering the right thing.
 
 ![image](https://github.com/user-attachments/assets/cc0037f3-d7bf-49ee-a891-3c4d6834c621)
 ![image](https://github.com/user-attachments/assets/ac0b5801-edfd-4ce9-b5a7-a286870b1ef5)
@@ -135,15 +134,36 @@ right thing.
 
 ![image](https://github.com/user-attachments/assets/c684e2e4-e321-49c8-8fb7-1f1a6cac3eb0)
 
-Press ^X to exit, press Y to save the file, press enter to confirm the file name
-Step 6: Run the script
-In the CLI type
-python3 setup_nba_data_lake.py
--You should see the resources were successfully created, the sample data was uploaded successfully and the Data Lake Setup Completed
+18. On your keyboard press "^X" (ctrl+x) to exit, press "Y" to save the file, press "Enter" to confirm the file name. Look on the bottom 
+     left to verify you are entering the right thing.
+
+![image](https://github.com/user-attachments/assets/204bca34-2a2c-4662-88ca-b88c4f8f490c)
+![image](https://github.com/user-attachments/assets/a94a03ec-fad8-427c-9301-0a4676a05367)
+
+
+
+
+19. Run the script.
+    Enter cmd:
+    ```bash
+    python3 setup_nba_data_lake.py
+    ```
+
+
+
+20. You should see the resources were successfully created, the sample data was uploaded successfully and the Data Lake Setup Completed
+![image](https://github.com/user-attachments/assets/ee1b2405-5616-4d10-b27e-abc2293e7947)
+
+
+
 
 Step 7: Manually Check For The Resources
 In the Search Bar, type S3 and click blue hyper link name
 -You should see 2 General purpose bucket named "Sports-analytics-data-lake"
+![image](https://github.com/user-attachments/assets/9d5e2dda-b0d1-4f35-8c53-ab60385e5b1d)
+![image](https://github.com/user-attachments/assets/4134bd1d-d0b5-48c3-a611-7e4d2d406711)
+
+
 
 -When you click the bucket name you will see 3 objects are in the bucket
 
