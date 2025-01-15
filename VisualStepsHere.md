@@ -68,7 +68,21 @@ Copy the contents inside the setup_nba_data_lake.py file to paste in the file yo
 
 
 
-Step 4: Configure API key in the Python script.
+Step 4: Go back to Python script and configure API key, endpoint, and remove "os.getenv" next to "api_key =" and "nba_endpoint =". Remove the parenthesis as well.
+
+Berfore: api_key = os.getenv("SPORTS_DATA_API_KEY")  # Get API key from .env
+        
+         nba_endpoint = os.getenv("NBA_ENDPOINT")  # Get NBA endpoint from .env
+
+ After:  api_key = "Insert_Your_Key_Here"  # Get API key from .env
+          
+          nba_endpoint = "Insert_your_endpoint_URL_Here"  # Get NBA endpoint from .env 
+          
+![image](https://github.com/user-attachments/assets/1bb70fec-430b-4d10-a66f-f5e5a3b9e6a9)
+ ![image](https://github.com/user-attachments/assets/155737fa-9076-4ad6-9150-2d5784f3f84c)
+
+![image](https://github.com/user-attachments/assets/75a4e73f-46f1-4d04-bf80-6a34b72ad4cd)
+
 Press ^X to exit, press Y to save the file, press enter to confirm the file name
 Step 5: Create .env file
 paste the following line of code into your file, ensure you swap out with your API key
