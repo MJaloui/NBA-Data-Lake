@@ -1,6 +1,4 @@
-
-![image](https://github.com/user-attachments/assets/5e0b2db5-d846-4d33-8ce4-22f5d0adf345)
-
+![github-header-image (3)](https://github.com/user-attachments/assets/cb2b2808-5bbd-4d41-840a-0f9bc3687790)
 
 
 1. Go to Sportsdata.io and create a free account
