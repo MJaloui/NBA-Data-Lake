@@ -64,11 +64,11 @@
 
 **🔹 Prerequisites 🔹**
 
-1. Go to Sportsdata.io and create a free account
+🔹 Go to Sportsdata.io and create a free account
 
-2. IAM Role/Permissions: Ensure the user or role running the script has the following permissions:
+🔹 IAM Role/Permissions: Ensure the user or role running the script has the following permissions:
 
-3. S3: s3:CreateBucket, s3:PutObject, s3:DeleteBucket, s3:ListBucket
+🔹 S3: s3:CreateBucket, s3:PutObject, s3:DeleteBucket, s3:ListBucket
   Glue: glue:CreateDatabase, glue:CreateTable, glue:DeleteDatabase, glue:DeleteTable
   Athena: athena:StartQueryExecution, athena:GetQueryResults
 
