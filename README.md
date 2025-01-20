@@ -16,7 +16,7 @@
 
 
 
-## **Capabilities**
+## **🔧 Capabilities 🔧**
 
 **The setup_nba_data_lake.py script performs the following actions:**
 
